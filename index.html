@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Link Arquivos</title>
+  <nav>
+    <div class="div b">
+
+      <p class="item1 b">
+        <img class="mpma-image b" src="https://www.mpma.mp.br/arquivos/COCOM/logo_portal/logo_mpma_horizontal_topo.png"
+          alt="logo mpma horizontal topo">
+      </p>
+      <p class="item2 b">
+        <img class="centralit-image b" class="logo-img-sticky site-logo-img-sticky"
+          src="https://centralit.com.br//wp-content/uploads/2021/02/logosnovas_hrz-02-1.png" alt="Central IT"
+          title="Governança Corporativa">
+      </p>
+    </div>
+  </nav>
+</head>
+
+<body>
+  <div class="container b">
+    <div class="card b">
+      <div class="face face--front b">Arquivos</div>
+      <div class="face btn-abrir face--back">
+        <!-- LINK DOS ARQUIVOS -->
+        <a href="COLOCAR O LINK DOS AQUIVOS DESTRO DESTAS ASPAS" target="_new" class="btn b">Abrir</a>
+        <!-- LINK DOS ARQUIVOS -->
+      </div>
+    </div>
+</body>
+<div>
+</div>
+
+</html>
+<style>
+
+
+  .div {
+    display: inline-block;
+    display: flex;
+    margin: px auto;
+    justify-content: center;
+    background-color: #53667a;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 25px;
+    
+
+  }
+
+  .mpma-image {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  
+  }
+
+  .centralit-image {
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    
+  }
+
+  .item2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 580px;
+    height: 40%;
+    
+    
+
+  }
+
+  .item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 40%;
+    
+  }
+
+  .btn {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+    background-size: cover;
+    background-position: center center;
+    backface-visibility: hidden;
+    transition: transform 0.3s ease-in-out;
+    color: #11a0c4;
+    text-decoration: none;
+    
+
+  }
+
+  .container {
+    display: flex;
+    width: 100%;
+    height: 85.05vh;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    margin: 1px 0px 0px 0px;
+    background-color: #11a0c4;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+  }
+
+  .card {
+    position: relative;
+    width: 8rem;
+    height: 4rem;
+    margin: 0.5rem;
+    text-align: center;
+    line-height: 4rem;
+    transform-style: preserve-3d;
+    
+  }
+
+  .face {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+    background-size: cover;
+    background-position: center center;
+    backface-visibility: hidden;
+    transition: transform 0.3s ease-in-out;
+    color: #11a0c4;
+  }
+
+  .face--front {
+    background: #2c3e50;
+    font-size: 1.5rem;
+
+  }
+
+  .face--back {
+    background: #e8e9e9;
+    font-size: 1.5rem;
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+
+  .card:hover .face--front {
+    transform: rotateY(-180deg);
+  }
+
+  .card:hover .face--back {
+    transform: rotateY(0deg);
+  }
+
+  .card:hover .btn-abrir {
+    transform: rotateY(0deg);
+  }
+</style>
