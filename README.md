@@ -1,5 +1,5 @@
 # simple-webpage
-Web-page super responsiva criada para atender a necessidades da empresa na qual trabalho de facilitar a usabilidade e acesso dos usuários a um respectivo link de diretório!
+Web-page super responsiva criada para atender a necessidades da empresa na qual trabalho de facilitar a usabilidade e acesso dos usuários a um respectivo link de diretório! Repositório interno na empresa.
 ## Usabilidade
 Ao acessar um determinado link no domínio o usuário é redirecionado para a web-page e pode clicar no botão centralizado o mesmo obtém um tranformer 3D, girando  360º graus ativando a interface  Abrir tendo acesso aos seus arquivos.
 ## Tecnologias
